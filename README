@@ -1,0 +1,19 @@
+UNINET
+
+Os testes unitários da aplicação estão rodando.
+
+Usei o 'bootstrap from Twitter' para o layout da aplicação. 
+
+Não finalizei a aplicação, faltaram melhores validações via jquery UI, e os métodos.
+de carregar as combos ajax.
+
+Para configurar o banco de dados:
+uninet\src\main\resources\META-INF\spring\database.xml
+
+Deploy da aplicação no Banco HSQLDB
+
+$ mvn clean test
+$ mvn clean eclipse:clean eclipse:eclipse
+
+$ mvn clean tomcat7:run
+access http://localhost:8080/uninet
